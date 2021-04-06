@@ -6,3 +6,32 @@
 body{
     padding: 60px;
 }
+
+input{
+    width: 100%;
+}
+
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    align-content: center;
+    border: solid 2px #efefef;
+    border-radius: 6px;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+.card img{
+    max-width: 300px;
+    max-height: 170px;
+
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
